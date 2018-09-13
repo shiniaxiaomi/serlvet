@@ -6,14 +6,48 @@
 
 
     <servlet>
-        <servlet-name>servlet</servlet-name>
-        <servlet-class>servlet</servlet-class>
+        <servlet-name>ServletDemo</servlet-name>
+        <servlet-class>ServletDemo</servlet-class>
     </servlet>
-
     <servlet-mapping>
-        <servlet-name>servlet</servlet-name>
+        <servlet-name>ServletDemo</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>TestLifeCycleServlet</servlet-name>
+        <servlet-class>TestLifeCycleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestLifeCycleServlet</servlet-name>
+        <url-pattern>/TestLifeCycleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ParamServlet</servlet-name>
+        <servlet-class>ParamServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ParamServlet</servlet-name>
+        <url-pattern>/ParamServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <servlet-class>SetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <url-pattern>/SetCookiesServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>GetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/GetCookiesServlet</url-pattern>
+    </servlet-mapping>
 
 </web-app>

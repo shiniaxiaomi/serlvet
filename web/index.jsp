@@ -11,6 +11,35 @@
     <title>index</title>
   </head>
   <body>
-  hello world!
+  hello world
+
+  <%--<form method="get" action="/ParamServlet">--%>
+    <%--<table>--%>
+      <%--<tr>--%>
+        <%--<td>参数1:</td>--%>
+        <%--<td><input name="param1"></td>--%>
+      <%--</tr>--%>
+      <%--<tr>--%>
+        <%--<td>参数2:</td>--%>
+        <%--<td><input name="param2"></td>--%>
+      <%--</tr>--%>
+    <%--</table>--%>
+    <%--<button>提交</button>--%>
+  <%--</form>--%>
+
+  <form method="post" action="/ParamServlet">
+    <table>
+      <tr>
+        <td>参数1:</td>
+        <td><input name="param1"></td>
+      </tr>
+      <tr>
+        <td>参数2:</td>
+        <td><input name="param2"></td>
+      </tr>
+    </table>
+    <button>提交</button>
+  </form>
+
   </body>
 </html>
